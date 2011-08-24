@@ -3,9 +3,9 @@ If you want to pull these artifacts, you'll need to add a repository to your pom
 ```xml
 <repositories>
 	<repository>
-		<id>github-davidhoyt-snapshot-repo</id>
+		<id>github-davidhoyt-release-repo</id>
 		<name>Github David Hoyt Maven Repository</name>
-		<url>http://davidhoyt.github.com/mvn-repo/2/snapshots/</url>
+		<url>http://davidhoyt.github.com/mvn-repo/2/releases/</url>
 	</repository>
 </repositories>
 ```
@@ -31,13 +31,14 @@ Followed by one of the following dependencies:
 If you're using a Sonatype nexus repository proxy, you'll want to add the following entries for snapshots:
 
 <table>
+    <tr><td colspan="2"></td></tr>
     <tr>
         <td><strong>Repository ID:</strong></td>
-        <td>github-davidhoyt-snapshot-repo</td>
+        <td>github-davidhoyt-release-repo</td>
     </tr>
     <tr>
         <td><strong>Repository Name:</strong></td>
-        <td>Github David Hoyt Snapshots</td>
+        <td>Github David Hoyt Releases</td>
     </tr>
     <tr>
         <td><strong>Repository Type:</strong></td>
@@ -54,12 +55,12 @@ If you're using a Sonatype nexus repository proxy, you'll want to add the follow
     </tr>
     <tr>
         <td><strong>Repository Policy:</strong></td>
-        <td>Snapshot</td>
+        <td>Release</td>
     </tr>
     <tr><td colspan="2"><br /></td></tr>
     <tr>
         <td><strong>Remote Storage Location:</strong></td>
-        <td>http://davidhoyt.github.com/mvn-repo/2/snapshots/</td>
+        <td>http://davidhoyt.github.com/mvn-repo/2/releases/</td>
     </tr>
     <tr><td colspan="2"><br /></td></tr>
     <tr>
