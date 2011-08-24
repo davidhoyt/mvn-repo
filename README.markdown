@@ -81,3 +81,5 @@ If you're using a Sonatype nexus repository proxy, you'll want to add the follow
     </tr>
 </table>
 
+With a default Sonatype nexus configuration, you'll typically want to add "Github David Hoyt Releases" to your "Public Repositories" group.
+
