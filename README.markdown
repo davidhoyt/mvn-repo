@@ -28,6 +28,20 @@ Followed by one of the following dependencies:
 </dependency>
 ```
 
+```xml
+<build>
+    <plugins>
+        <plugin>
+            <groupId>com.github.davidhoyt.maven.plugins</groupId>
+            <artifactId>perforce</artifactId>
+            <version>0.0.1-RC1</version>
+        </plugin>
+    </plugins>
+</build>
+```
+
+Please see the <a href="https://github.com/davidhoyt/mvn-plugins" target="_top">plugin documentation</a> for more information on it.
+
 If you're using a Sonatype nexus repository proxy, you'll want to add the following entries for snapshots:
 
 <table>
