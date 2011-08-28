@@ -42,7 +42,7 @@ Followed by one of the following dependencies:
 
 Please see the <a href="https://github.com/davidhoyt/mvn-plugins" target="_top">plugin documentation</a> for more information on it.
 
-If you're using a Sonatype nexus repository proxy, you'll want to add the following entries for snapshots:
+If you're using a Sonatype nexus repository proxy, you'll want to add the following entries for releases:
 
 <table>
     <tr><td colspan="2"></td></tr>
